@@ -26,7 +26,7 @@ Walker[] tony= new Walker[25];
  }
 
  
- class Bacteria
+ class Walker
  {
    int myX, myY, myColor, mySize;
 
