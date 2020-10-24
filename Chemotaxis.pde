@@ -10,7 +10,7 @@ void setup()
   }
 } void draw()
 { 
-  for (int i =0; i < tony.length; i++)
+  for (int j =0; j < tony.length; j++)
   {
     tony[i].show();
     tony[i].walk();
