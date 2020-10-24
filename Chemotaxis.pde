@@ -25,8 +25,8 @@ void setup()
   }
   void move()
   {
-    myX = myX +(int)(Math.random()*3)-1;
-    myY = myY +(int)(Math.random()*3)-1;
+    myX = myX + (int)(Math.random()*3)-1;
+    myY = myY + (int)(Math.random()*3)-1;
   }
   void show()
   {
