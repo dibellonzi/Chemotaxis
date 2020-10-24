@@ -13,12 +13,11 @@ void setup()
   for (int i =0; i < tony.length; i++)
   {
     tony[i].show();
-    tony[i].walk();
+    tony[i].move();
   }
 } class Walker
 { 
-  int myX, myY, mycolor;
- 
+  int myX, myY, myColor;
   {
   myX = 200;
   myY = 200;
