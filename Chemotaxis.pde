@@ -21,7 +21,7 @@ void setup()
   {
   myX = 200;
   myY = 200;
-  mycolor = color((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
+  myColor = color((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
   }
   void move()
   {
@@ -30,7 +30,7 @@ void setup()
   }
   void show()
   {
-    fill(mycolor);
+    fill(myColor);
     ellipse(myX,myY,20,20);
   }
 }
