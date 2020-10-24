@@ -13,7 +13,7 @@ void setup()
   for (int i =0; i < tony.length; i++)
   {
     tony[i].show();
-    tony[i].move();
+    tony[i].walk();
   }
 } class Walker
 { 
@@ -23,7 +23,7 @@ void setup()
   myY = 200;
   myColor = color((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
   }
-  void move()
+  void walk()
   {
     myX = myX + (int)(Math.random()*3)-1;
     myY = myY + (int)(Math.random()*3)-1;
