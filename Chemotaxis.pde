@@ -23,7 +23,7 @@ void setup()
   myY = 200;
   mycolor = color((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
   }
-  void walk()
+  void move()
   {
     myX = myX +(int)(Math.random()*3)-1;
     myY = myY +(int)(Math.random()*3)-1;
