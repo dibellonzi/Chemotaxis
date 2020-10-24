@@ -4,7 +4,7 @@ void setup()
   size(400,400);
   background(0);
   tony = new Walker[50];
-  for (int i =0; i < tony.length; i++)
+  for (int i = 0; i < tony.length; i++)
   {
     tony[i] = new Walker();
   }
@@ -12,8 +12,8 @@ void setup()
 { 
   for (int j =0; j < tony.length; j++)
   {
-    tony[i].show();
-    tony[i].walk();
+    tony[j].show();
+    tony[j].walk();
   }
 } class Walker
 { 
