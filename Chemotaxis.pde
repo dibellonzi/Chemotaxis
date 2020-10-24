@@ -9,7 +9,6 @@ void setup()
   }
 } void draw()
 {
-  background (0,255,40);
   for (int i =0; i < tony.length; i++)
   {
     tony[i].show();
