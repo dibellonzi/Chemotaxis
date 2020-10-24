@@ -2,7 +2,7 @@ Walker [] tony;
 void setup()
 {
   size(400,400);
-  background(0,255,40);
+  background(0);
   tony = new Walker[50];
   for (int i =0; i < tony.length; i++)
   {
