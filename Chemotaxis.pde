@@ -5,7 +5,7 @@ Walker[] tony= new Walker[25];
    size(400,400);
    for(int i=0; i<25; i++){
     tony[i]=new Walker(200,200);
-    frameRate(16);
+    frameRate(60);
   }
 
 
@@ -34,14 +34,14 @@ Walker[] tony= new Walker[25];
    {
      myX=x;
      myY=y;
-     myColor=color((int)(Math.random()256),(int)(Math.random()256),(int)(Math.random()*256));
-     mySize=(int)(Math.random()20)+5;
+     myColor=color((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
+     mySize=(int)(Math.random()*20)+5;
    }
 
    void move()
    {
-     myX+=(int)(Math.random()*3)+1;
-     myY+=(int)(Math.random()*3)+1;
+     myX+=(int)(Math.random()*3)-1;
+     myY+=(int)(Math.random()*3)-1;
    }
 
    void show()
